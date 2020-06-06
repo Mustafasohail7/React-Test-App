@@ -4,10 +4,16 @@ import './App.css';
 import Hello from './Hello';
 
 function App({name, age}) {
-  let Umair = {name, age};
 return <div>
-          Hello from Mustafa Sohail<br/>
+          Hello World from <b>{name}</b><br/>
+          Age : {age - 10}<br/>
           <Hello/>
+          <h2>Sample List</h2>
+          <ol>
+            <li>List item number {age - 25}</li>
+            <li>List item number {age - 24}</li>
+            <li>List item number {age - 23}</li>
+          </ol>
        </div>
 
 }

@@ -3,8 +3,10 @@ import './Hello.css'
 
 function Hello() {
     return (
-        React.createElement('span',null,"Hello World from a different js file"),
-        <img src="react.png" alt="React Logo" width="700" length="500"></img>
+        <div>
+            <span id="Hello">Hello world from a different JS file</span>
+            <img src="react.png" alt="React Logo" width="700" length="500"></img>
+        </div>    
 )
 }
 

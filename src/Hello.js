@@ -1,12 +1,13 @@
 import React from 'react';
 import './Hello.css'
 
-function Hello() {
+function Hello(props) {
     return (
         <div>
-            <span id="Hello">Hello world from a different JS file</span><br/>
-            <img src="react.png" alt="React Logo" width="700" length="500"></img>
-        </div>    
+           <h2>{props.title}</h2> 
+           <p>{props.body}</p>
+           <img src={props.imageURL} alt="Provided by the user" width="500" length="400"/>
+        </div>   
 )
 }
 

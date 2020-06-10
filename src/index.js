@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import isOpen from './IsOpen';
+//import App from './App';
 import * as serviceWorker from './serviceWorker';
+import Room from './Room'
 
 ReactDOM.render(
   <div align="center">
-    <App name="Mustafa Sohail" age={26} /><hr/>
-    <isOpen Open={true}/>
+    {/*<App name="Mustafa Sohail" age={26} />*/}
+    <Room Open={true} Temp={23}/>
   </div>,
   document.getElementById('root')
 );

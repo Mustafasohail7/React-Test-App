@@ -2,11 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import isOpen from './IsOpen';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <div>
-    <App name="Mustafa Sohail" age={26} />
+  <div align="center">
+    <App name="Mustafa Sohail" age={26} /><hr/>
+    <isOpen Open={true}/>
   </div>,
   document.getElementById('root')
 );

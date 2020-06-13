@@ -4,11 +4,14 @@ import './index.css';
 //import App from './App';
 import * as serviceWorker from './serviceWorker';
 import Room from './Room'
+import Reddit from './Reddit';
+
 
 ReactDOM.render(
   <div align="center">
     {/*<App name="Mustafa Sohail" age={26} />*/}
     <Room Open={true} Temp={23}/>
+    <Reddit/>
   </div>,
   document.getElementById('root')
 );

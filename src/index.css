@@ -26,4 +26,13 @@ code {
   font-weight: bold;
 }
 
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:link {
+  color: #fff;
+}
+
 
